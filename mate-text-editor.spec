@@ -3,12 +3,12 @@
 
 Summary:	Small but powerful text editor for MATE
 Name:		mate-text-editor
-Version:	1.2.0
+Version:	1.4.0
 Release:	1
 License:	GPLv2+
 Group:		Editors 
 URL:		http://mate-desktop.org
-Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
+Source0:	http://pub.mate-desktop.org/releases/1.4/%{name}-%{version}.tar.xz
 
 BuildRequires:	docbook-dtd412-xml
 BuildRequires:	intltool
@@ -121,4 +121,11 @@ find %{buildroot} -type f -name "*.la" -exec rm -f {} ';'
 %doc %{_datadir}/gtk-doc/html/*
 %{_includedir}/*
 %{_libdir}/pkgconfig/*
+
+
+
+%changelog
+* Sun Jun 03 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
++ Revision: 802089
+- imported package mate-text-editor
 
